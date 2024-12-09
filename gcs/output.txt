@@ -1,0 +1,510 @@
+livestream '02c7bd27-b708-4903-bd08-9fde57e4c35f': bucket1 'livestream-recording-service-prod-bucket': 26 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 25 file(s); diff: 1
+--------------------------------------
+livestream '031f9c20-bc7e-4d7f-85a7-6c2a9f895de7': bucket1 'livestream-recording-service-prod-bucket': 22 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 21 file(s); diff: 1
+--------------------------------------
+livestream '0392ae64-01ff-4ac0-af5e-4a63f3aa3a10': bucket1 'livestream-recording-service-prod-bucket': 49 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 25 file(s); diff: 24
+--------------------------------------
+livestream '052fb628-a856-4fd5-992d-9898275228e2': bucket1 'livestream-recording-service-prod-bucket': 6 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 4 file(s); diff: 2
+--------------------------------------
+livestream '0579cb54-e7f2-4f33-93de-5579ec6ca7c6': bucket1 'livestream-recording-service-prod-bucket': 108 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 107 file(s); diff: 1
+--------------------------------------
+livestream '05c55e84-bcf8-487b-8cdb-fe90f1d71add': bucket1 'livestream-recording-service-prod-bucket': 63 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 62 file(s); diff: 1
+--------------------------------------
+livestream '07545862-f257-4bc9-983c-d5088516d19a': bucket1 'livestream-recording-service-prod-bucket': 15 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 1 file(s); diff: 14
+--------------------------------------
+livestream '07c0b920-83c3-4261-a934-b579fff18f7a': bucket1 'livestream-recording-service-prod-bucket': 136 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 131 file(s); diff: 5
+--------------------------------------
+livestream '07f181fc-28f9-426b-af45-d5db00970f8a': bucket1 'livestream-recording-service-prod-bucket': 19 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 17 file(s); diff: 2
+--------------------------------------
+livestream '08692975-c3be-4eb9-aee7-26d5ba58c5e2': bucket1 'livestream-recording-service-prod-bucket': 3 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 2 file(s); diff: 1
+--------------------------------------
+livestream '093124f1-3035-4d00-aa4a-16a16202b94f': bucket1 'livestream-recording-service-prod-bucket': 76 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 75 file(s); diff: 1
+--------------------------------------
+livestream '09fdd4c7-0b88-47d9-b9f9-94c09cb2fbcf': bucket1 'livestream-recording-service-prod-bucket': 565 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 477 file(s); diff: 88
+--------------------------------------
+livestream '0a9aaae4-1e60-4d11-8121-2f31f925eae3': bucket1 'livestream-recording-service-prod-bucket': 135 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 59 file(s); diff: 76
+--------------------------------------
+livestream '0b184d93-6ca6-40a1-ae0f-add6fe7b573f': bucket1 'livestream-recording-service-prod-bucket': 88 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 3 file(s); diff: 85
+--------------------------------------
+livestream '0d131226-8eca-49d1-a3a3-a60045815db1': bucket1 'livestream-recording-service-prod-bucket': 602 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 195 file(s); diff: 407
+--------------------------------------
+livestream '0eeb63f9-6e14-42ae-a09f-0e7b86d52769': bucket1 'livestream-recording-service-prod-bucket': 44 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 41 file(s); diff: 3
+--------------------------------------
+livestream '0f648330-e544-42ac-a93e-a458d0ae2285': bucket1 'livestream-recording-service-prod-bucket': 359 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 224 file(s); diff: 135
+--------------------------------------
+livestream '10fe29a2-4a84-4dad-9711-7dee766ca65b': bucket1 'livestream-recording-service-prod-bucket': 151 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 82 file(s); diff: 69
+--------------------------------------
+livestream '1288f2ba-48f8-407b-b469-123337b4bddb': bucket1 'livestream-recording-service-prod-bucket': 452 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 113 file(s); diff: 339
+--------------------------------------
+livestream '14cc21ec-cac0-47c5-9774-76a56fcc8a6f': bucket1 'livestream-recording-service-prod-bucket': 92 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 91 file(s); diff: 1
+--------------------------------------
+livestream '14dfeb7a-9749-451b-bcd7-98a291bcdf39': bucket1 'livestream-recording-service-prod-bucket': 74 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 54 file(s); diff: 20
+--------------------------------------
+livestream '15047a36-cfa9-46ed-aec5-20a611fff280': bucket1 'livestream-recording-service-prod-bucket': 26 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 24 file(s); diff: 2
+--------------------------------------
+livestream '16080827-b203-41b0-8fa2-e3dd47996a5d': bucket1 'livestream-recording-service-prod-bucket': 62 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 61 file(s); diff: 1
+--------------------------------------
+livestream '17c3e51a-3f23-46b8-aae2-2618e30f8dd4': bucket1 'livestream-recording-service-prod-bucket': 6 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 4 file(s); diff: 2
+--------------------------------------
+livestream '1b412867-7521-436c-8076-aa9227755131': bucket1 'livestream-recording-service-prod-bucket': 248 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 225 file(s); diff: 23
+--------------------------------------
+livestream '1b660fb5-d6ff-4258-8140-0a063ff383e4': bucket1 'livestream-recording-service-prod-bucket': 724 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 180 file(s); diff: 544
+--------------------------------------
+livestream '1c02d6bc-24c2-479e-8303-02eb2bea6a93': bucket1 'livestream-recording-service-prod-bucket': 83 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 82 file(s); diff: 1
+--------------------------------------
+livestream '1c4c69a3-9c01-4f7c-93bc-9a6b67828fdc': bucket1 'livestream-recording-service-prod-bucket': 15 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 14 file(s); diff: 1
+--------------------------------------
+livestream '1de03140-a53e-41d8-bb91-a5f69098d682': bucket1 'livestream-recording-service-prod-bucket': 46 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 30 file(s); diff: 16
+--------------------------------------
+livestream '1e318345-5d25-4f43-a635-601add89f4cf': bucket1 'livestream-recording-service-prod-bucket': 32 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 4 file(s); diff: 28
+--------------------------------------
+livestream '1f2503ab-d8d3-47ca-93cb-22074facd7a6': bucket1 'livestream-recording-service-prod-bucket': 305 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 252 file(s); diff: 53
+--------------------------------------
+livestream '1f3b4af2-2113-4844-a6cd-4be578270bde': bucket1 'livestream-recording-service-prod-bucket': 203 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 47 file(s); diff: 156
+--------------------------------------
+livestream '1f3e322e-1ae1-41dd-bda2-d939f4ed22f4': bucket1 'livestream-recording-service-prod-bucket': 89 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 82 file(s); diff: 7
+--------------------------------------
+livestream '20121379-b26b-4497-aec7-abf61b21e60c': bucket1 'livestream-recording-service-prod-bucket': 98 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 82 file(s); diff: 16
+--------------------------------------
+livestream '23d7ce62-0f35-4c16-8a33-ae75b0e80825': bucket1 'livestream-recording-service-prod-bucket': 26 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 25 file(s); diff: 1
+--------------------------------------
+livestream '24ff54a9-eeb6-41f4-a1f0-b2f58240abb6': bucket1 'livestream-recording-service-prod-bucket': 59 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 57 file(s); diff: 2
+--------------------------------------
+livestream '26521e22-dee0-4881-913f-dc8f942787ab': bucket1 'livestream-recording-service-prod-bucket': 67 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 62 file(s); diff: 5
+--------------------------------------
+livestream '2680856b-7ea2-4c41-8f69-cbb627c01f20': bucket1 'livestream-recording-service-prod-bucket': 115 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 61 file(s); diff: 54
+--------------------------------------
+livestream '27d4b92a-baf3-4d79-a6e1-d1d4d4754bcc': bucket1 'livestream-recording-service-prod-bucket': 7 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 5 file(s); diff: 2
+--------------------------------------
+livestream '27e522cc-cdf4-4bdc-90d5-2f9afc2b2fd2': bucket1 'livestream-recording-service-prod-bucket': 41 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 40 file(s); diff: 1
+--------------------------------------
+livestream '2a3de41e-3882-4f0a-928e-ee1ce8903eea': bucket1 'livestream-recording-service-prod-bucket': 40 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 19 file(s); diff: 21
+--------------------------------------
+livestream '2b36ce68-ebbd-455c-a384-c774e671a4f5': bucket1 'livestream-recording-service-prod-bucket': 5 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 2 file(s); diff: 3
+--------------------------------------
+livestream '2bf7b42f-bfb6-4217-b2bf-047979484fd7': bucket1 'livestream-recording-service-prod-bucket': 27 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 26 file(s); diff: 1
+--------------------------------------
+livestream '2ca8eaf6-b035-4b29-8d17-6ac4a718c0f0': bucket1 'livestream-recording-service-prod-bucket': 40 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 39 file(s); diff: 1
+--------------------------------------
+livestream '2d984915-a884-4bca-a349-c7e3b8868346': bucket1 'livestream-recording-service-prod-bucket': 11 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 9 file(s); diff: 2
+--------------------------------------
+livestream '2eb797e9-aa6a-40f2-9700-04d2d6bbf137': bucket1 'livestream-recording-service-prod-bucket': 4 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 3 file(s); diff: 1
+--------------------------------------
+livestream '2ed0dea6-cc5b-4840-8f85-183b43aab12a': bucket1 'livestream-recording-service-prod-bucket': 21 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 12 file(s); diff: 9
+--------------------------------------
+livestream '2f7d95d2-0a8a-42e1-a0e6-509cfea8fa4b': bucket1 'livestream-recording-service-prod-bucket': 209 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 188 file(s); diff: 21
+--------------------------------------
+livestream '33863efe-aa1a-41ca-961e-2ed3053eb62e': bucket1 'livestream-recording-service-prod-bucket': 76 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 38 file(s); diff: 38
+--------------------------------------
+livestream '34b05afa-a7c1-4379-bea7-8215f147d4de': bucket1 'livestream-recording-service-prod-bucket': 89 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 86 file(s); diff: 3
+--------------------------------------
+livestream '36edb0f0-bf38-4ecd-abc9-ab268fb61c19': bucket1 'livestream-recording-service-prod-bucket': 1381 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 484 file(s); diff: 897
+--------------------------------------
+livestream '36f11635-0fda-49af-b2f8-9a3a61b8a873': bucket1 'livestream-recording-service-prod-bucket': 56 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 32 file(s); diff: 24
+--------------------------------------
+livestream '370ac480-9471-40a6-9ce3-0aa022536bdb': bucket1 'livestream-recording-service-prod-bucket': 40 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 39 file(s); diff: 1
+--------------------------------------
+livestream '371e0aca-5bc4-4555-a56b-7fa6d83af6fd': bucket1 'livestream-recording-service-prod-bucket': 3 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 2 file(s); diff: 1
+--------------------------------------
+livestream '3a784dcb-7051-4199-a620-a883b80657d7': bucket1 'livestream-recording-service-prod-bucket': 222 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 162 file(s); diff: 60
+--------------------------------------
+livestream '3d1a68de-1720-4b96-aa14-5c959b5580f7': bucket1 'livestream-recording-service-prod-bucket': 30 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 28 file(s); diff: 2
+--------------------------------------
+livestream '41408946-bef8-4aa4-9707-ed40485d7d4f': bucket1 'livestream-recording-service-prod-bucket': 96 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 93 file(s); diff: 3
+--------------------------------------
+livestream '41f8726c-0c6d-466f-9b79-340253fd05b6': bucket1 'livestream-recording-service-prod-bucket': 205 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 120 file(s); diff: 85
+--------------------------------------
+livestream '42589861-a873-4eaf-8401-e2ce2fa6d619': bucket1 'livestream-recording-service-prod-bucket': 496 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 90 file(s); diff: 406
+--------------------------------------
+livestream '42772634-8aaf-42cb-9152-2c30152e4919': bucket1 'livestream-recording-service-prod-bucket': 223 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 18 file(s); diff: 205
+--------------------------------------
+livestream '431b223d-7e61-4b91-bd76-92d55e27033e': bucket1 'livestream-recording-service-prod-bucket': 14 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 11 file(s); diff: 3
+--------------------------------------
+livestream '45b320dd-4cc7-434e-8ee7-6851b2d01c37': bucket1 'livestream-recording-service-prod-bucket': 27 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 25 file(s); diff: 2
+--------------------------------------
+livestream '46509f51-5729-46ec-8ede-b4d0737052b3': bucket1 'livestream-recording-service-prod-bucket': 788 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 102 file(s); diff: 686
+--------------------------------------
+livestream '46c81c65-63cd-476a-a632-fff490b9a556': bucket1 'livestream-recording-service-prod-bucket': 6 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 4 file(s); diff: 2
+--------------------------------------
+livestream '47165c34-6a68-4e39-8a79-7e8d9b41ef1c': bucket1 'livestream-recording-service-prod-bucket': 60 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 15 file(s); diff: 45
+--------------------------------------
+livestream '47596866-28ab-439d-bb7e-8b33785e18cf': bucket1 'livestream-recording-service-prod-bucket': 1287 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 52 file(s); diff: 1235
+--------------------------------------
+livestream '48025a8c-56d5-44f2-9d5d-fc9f2deebdbb': bucket1 'livestream-recording-service-prod-bucket': 51 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 41 file(s); diff: 10
+--------------------------------------
+livestream '49643388-e339-4a97-be04-27bb6d1fb9a0': bucket1 'livestream-recording-service-prod-bucket': 34 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 32 file(s); diff: 2
+--------------------------------------
+livestream '4b8d97e1-640e-4a10-b46f-e43b430ce8e3': bucket1 'livestream-recording-service-prod-bucket': 56 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 53 file(s); diff: 3
+--------------------------------------
+livestream '4b98bee1-2cc3-40b0-8180-2bd1e2f7b881': bucket1 'livestream-recording-service-prod-bucket': 146 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 143 file(s); diff: 3
+--------------------------------------
+livestream '4d7168b5-baa1-488f-9ad1-ec6e3b8de8c3': bucket1 'livestream-recording-service-prod-bucket': 303 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 185 file(s); diff: 118
+--------------------------------------
+livestream '4d726972-0106-4a05-8476-2d582faab3e3': bucket1 'livestream-recording-service-prod-bucket': 124 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 119 file(s); diff: 5
+--------------------------------------
+livestream '50439ad0-1c3a-4231-a6ce-e79c7e7e086d': bucket1 'livestream-recording-service-prod-bucket': 32 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 8 file(s); diff: 24
+--------------------------------------
+livestream '5168ed37-6070-4e08-a278-795c82901c4c': bucket1 'livestream-recording-service-prod-bucket': 17 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 13 file(s); diff: 4
+--------------------------------------
+livestream '5364a419-f221-44e8-93d3-9dec5b299b37': bucket1 'livestream-recording-service-prod-bucket': 26 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 24 file(s); diff: 2
+--------------------------------------
+livestream '5447dac0-bae8-45e2-b2b9-d2fc91dffc97': bucket1 'livestream-recording-service-prod-bucket': 6 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 4 file(s); diff: 2
+--------------------------------------
+livestream '56ee6efd-90e2-4c01-8c55-01d89e767e1e': bucket1 'livestream-recording-service-prod-bucket': 47 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 46 file(s); diff: 1
+--------------------------------------
+livestream '580eb29e-68ef-4a8f-b891-5976bda66c95': bucket1 'livestream-recording-service-prod-bucket': 14 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 8 file(s); diff: 6
+--------------------------------------
+livestream '584e878f-c58c-4497-91e1-5066a2529c85': bucket1 'livestream-recording-service-prod-bucket': 58 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 36 file(s); diff: 22
+--------------------------------------
+livestream '5aa5c985-c2fa-44a7-aecb-1b3cdb2c2a70': bucket1 'livestream-recording-service-prod-bucket': 172 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 78 file(s); diff: 94
+--------------------------------------
+livestream '5ad0d1a4-b766-4d24-8c6b-b124927aa51a': bucket1 'livestream-recording-service-prod-bucket': 502 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 281 file(s); diff: 221
+--------------------------------------
+livestream '5d18da7f-ac4c-426c-a68b-af84744cb68b': bucket1 'livestream-recording-service-prod-bucket': 11 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 5 file(s); diff: 6
+--------------------------------------
+livestream '5d1f948b-043b-4e8c-8ddb-c3b32ad91c88': bucket1 'livestream-recording-service-prod-bucket': 49 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 48 file(s); diff: 1
+--------------------------------------
+livestream '5d3e54d4-2feb-41a3-b6ce-0f01da63d8b6': bucket1 'livestream-recording-service-prod-bucket': 459 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 12 file(s); diff: 447
+--------------------------------------
+livestream '5d7e6012-627a-4056-9dba-05f4c2d949b3': bucket1 'livestream-recording-service-prod-bucket': 241 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 51 file(s); diff: 190
+--------------------------------------
+livestream '5e32ce18-345c-455e-a898-3904692c93ae': bucket1 'livestream-recording-service-prod-bucket': 12 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 11 file(s); diff: 1
+--------------------------------------
+livestream '5e9e2a77-2ecf-4697-9cb4-e45b8c3c5ed9': bucket1 'livestream-recording-service-prod-bucket': 29 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 27 file(s); diff: 2
+--------------------------------------
+livestream '63f80e4d-4f9d-4d79-8e79-b338641251df': bucket1 'livestream-recording-service-prod-bucket': 345 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 187 file(s); diff: 158
+--------------------------------------
+livestream '64488d89-ee67-4606-a5ad-ac75085050a2': bucket1 'livestream-recording-service-prod-bucket': 32 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 31 file(s); diff: 1
+--------------------------------------
+livestream '64aa72ea-40f3-4439-8719-4f6bfcf4f25e': bucket1 'livestream-recording-service-prod-bucket': 376 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 214 file(s); diff: 162
+--------------------------------------
+livestream '64ef5c28-504c-490c-aa63-ac69e139ae3f': bucket1 'livestream-recording-service-prod-bucket': 31 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 30 file(s); diff: 1
+--------------------------------------
+livestream '6532e89d-7e19-4489-851f-4ddd07c67580': bucket1 'livestream-recording-service-prod-bucket': 44 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 18 file(s); diff: 26
+--------------------------------------
+livestream '65556f69-5b34-458e-9acc-a286f3bb2de9': bucket1 'livestream-recording-service-prod-bucket': 5 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 3 file(s); diff: 2
+--------------------------------------
+livestream '66c6d10b-3df1-4c45-a989-d921aaa2093c': bucket1 'livestream-recording-service-prod-bucket': 70 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 68 file(s); diff: 2
+--------------------------------------
+livestream '66cb6d26-f850-48d8-909c-df005b1ce928': bucket1 'livestream-recording-service-prod-bucket': 32 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 30 file(s); diff: 2
+--------------------------------------
+livestream '67125701-e81f-4a4e-9757-aa1f1aa6f057': bucket1 'livestream-recording-service-prod-bucket': 34 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 30 file(s); diff: 4
+--------------------------------------
+livestream '68a934fb-3c65-4166-abe0-67eb554e723f': bucket1 'livestream-recording-service-prod-bucket': 10 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 8 file(s); diff: 2
+--------------------------------------
+livestream '68e9aa3d-4039-42b2-bdc5-9e3d715fd4b5': bucket1 'livestream-recording-service-prod-bucket': 13 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 12 file(s); diff: 1
+--------------------------------------
+livestream '69cb6fb9-90ea-4ab8-82b2-fc2998aa8a6a': bucket1 'livestream-recording-service-prod-bucket': 13 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 11 file(s); diff: 2
+--------------------------------------
+livestream '69f71721-9b8c-4f83-b580-3bcee2445e6a': bucket1 'livestream-recording-service-prod-bucket': 39 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 19 file(s); diff: 20
+--------------------------------------
+livestream '6a2e11b2-9ffa-481b-b6d2-63b6d6d4191d': bucket1 'livestream-recording-service-prod-bucket': 146 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 145 file(s); diff: 1
+--------------------------------------
+livestream '6a8bea86-e547-4cb3-9fef-1cbf348cd5ac': bucket1 'livestream-recording-service-prod-bucket': 182 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 180 file(s); diff: 2
+--------------------------------------
+livestream '6b150fc6-bcdb-4173-b2fd-a8b418026ec7': bucket1 'livestream-recording-service-prod-bucket': 9 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 8 file(s); diff: 1
+--------------------------------------
+livestream '6c6be51d-4e7f-41ed-b357-b4a80050964a': bucket1 'livestream-recording-service-prod-bucket': 15 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 1 file(s); diff: 14
+--------------------------------------
+livestream '6d92d87e-98b8-4eb5-9134-f23f956f07f5': bucket1 'livestream-recording-service-prod-bucket': 35 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 13 file(s); diff: 22
+--------------------------------------
+livestream '6d9a10b7-0621-48f1-b17a-44266039055a': bucket1 'livestream-recording-service-prod-bucket': 7 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 5 file(s); diff: 2
+--------------------------------------
+livestream '6e8558d7-f9f0-43c6-b289-d18c969c7095': bucket1 'livestream-recording-service-prod-bucket': 423 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 51 file(s); diff: 372
+--------------------------------------
+livestream '6ee38a6f-2105-4a24-a7a9-b012a8a54c6c': bucket1 'livestream-recording-service-prod-bucket': 4 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 1 file(s); diff: 3
+--------------------------------------
+livestream '70c697a3-eb64-482b-a143-f2032efd26db': bucket1 'livestream-recording-service-prod-bucket': 103 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 102 file(s); diff: 1
+--------------------------------------
+livestream '70e3e4e1-ba69-4289-9b0c-20bca64f5bf6': bucket1 'livestream-recording-service-prod-bucket': 78 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 72 file(s); diff: 6
+--------------------------------------
+livestream '71e1a765-427f-42ec-8eb1-5b8da6fc640f': bucket1 'livestream-recording-service-prod-bucket': 87 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 86 file(s); diff: 1
+--------------------------------------
+livestream '74bd22d7-37bd-4c0a-a908-810f1a9cd611': bucket1 'livestream-recording-service-prod-bucket': 114 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 112 file(s); diff: 2
+--------------------------------------
+livestream '77c248f1-e8c2-4a25-b248-ad73d58f02e5': bucket1 'livestream-recording-service-prod-bucket': 42 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 41 file(s); diff: 1
+--------------------------------------
+livestream '77dd477b-6dcd-463c-9789-6372b0e2a945': bucket1 'livestream-recording-service-prod-bucket': 28 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 7 file(s); diff: 21
+--------------------------------------
+livestream '77dec4e6-1bb5-4fd1-949a-9f399a2f6781': bucket1 'livestream-recording-service-prod-bucket': 13 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 12 file(s); diff: 1
+--------------------------------------
+livestream '7819f1a8-ffeb-4354-8c01-4e92ff12f1e6': bucket1 'livestream-recording-service-prod-bucket': 94 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 93 file(s); diff: 1
+--------------------------------------
+livestream '78624253-2adc-4a06-ac95-b433ef9ac842': bucket1 'livestream-recording-service-prod-bucket': 273 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 46 file(s); diff: 227
+--------------------------------------
+livestream '7a62744b-e9bb-4300-b0fd-4f93ced5ff17': bucket1 'livestream-recording-service-prod-bucket': 5 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 4 file(s); diff: 1
+--------------------------------------
+livestream '7abb97b1-0cc5-481d-98e8-123ec6f23431': bucket1 'livestream-recording-service-prod-bucket': 47 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 45 file(s); diff: 2
+--------------------------------------
+livestream '7ac49f8e-e1ee-40d9-afe9-af8d984ac2b1': bucket1 'livestream-recording-service-prod-bucket': 7 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 5 file(s); diff: 2
+--------------------------------------
+livestream '7b061b5f-6f0b-4822-a959-c4bc1682bf36': bucket1 'livestream-recording-service-prod-bucket': 23 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 18 file(s); diff: 5
+--------------------------------------
+livestream '7cb3b300-f2c9-48a5-8b72-2d1aedbde7df': bucket1 'livestream-recording-service-prod-bucket': 23 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 1 file(s); diff: 22
+--------------------------------------
+livestream '7d647f52-b702-4070-b033-14162b840a12': bucket1 'livestream-recording-service-prod-bucket': 52 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 18 file(s); diff: 34
+--------------------------------------
+livestream '7d97770b-b169-4f4f-9c74-385f9a08d795': bucket1 'livestream-recording-service-prod-bucket': 279 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 277 file(s); diff: 2
+--------------------------------------
+livestream '7de42119-1f22-490d-873b-684f2164c7d0': bucket1 'livestream-recording-service-prod-bucket': 15 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 13 file(s); diff: 2
+--------------------------------------
+livestream '7e702966-0057-4c8a-8030-77f2ac12cf09': bucket1 'livestream-recording-service-prod-bucket': 10 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 9 file(s); diff: 1
+--------------------------------------
+livestream '7fbc3afd-12b5-4667-8ccb-07fa14327789': bucket1 'livestream-recording-service-prod-bucket': 196 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 191 file(s); diff: 5
+--------------------------------------
+livestream '80b47e11-98b9-4dd3-8339-38623b45f676': bucket1 'livestream-recording-service-prod-bucket': 154 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 151 file(s); diff: 3
+--------------------------------------
+livestream '8130b8f7-5159-40b7-af6e-8d2dd7e393fd': bucket1 'livestream-recording-service-prod-bucket': 17 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 9 file(s); diff: 8
+--------------------------------------
+livestream '84ca7952-5064-4985-86c2-ee10da49bfd7': bucket1 'livestream-recording-service-prod-bucket': 49 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 48 file(s); diff: 1
+--------------------------------------
+livestream '852b7665-ec93-4996-bbd1-9470eb7303e6': bucket1 'livestream-recording-service-prod-bucket': 65 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 63 file(s); diff: 2
+--------------------------------------
+livestream '8574a6b2-34eb-4356-a07b-4e9da3af3f2d': bucket1 'livestream-recording-service-prod-bucket': 3 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 2 file(s); diff: 1
+--------------------------------------
+livestream '866aef03-f7ab-4402-af7b-01a0f6933efd': bucket1 'livestream-recording-service-prod-bucket': 25 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 24 file(s); diff: 1
+--------------------------------------
+livestream '87c9a3bf-f126-4543-ac8d-2fbe9d150129': bucket1 'livestream-recording-service-prod-bucket': 16 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 15 file(s); diff: 1
+--------------------------------------
+livestream '8a9c51ff-5b0e-4527-8b39-135be0db4c0a': bucket1 'livestream-recording-service-prod-bucket': 393 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 391 file(s); diff: 2
+--------------------------------------
+livestream '8b7a378a-124c-46d6-a974-50888d07faf7': bucket1 'livestream-recording-service-prod-bucket': 256 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 222 file(s); diff: 34
+--------------------------------------
+livestream '8c174617-8a7d-4c5b-931a-d57952562402': bucket1 'livestream-recording-service-prod-bucket': 19 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 18 file(s); diff: 1
+--------------------------------------
+livestream '8dfa9e40-cdf2-4189-854b-2b4c4384b460': bucket1 'livestream-recording-service-prod-bucket': 71 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 50 file(s); diff: 21
+--------------------------------------
+livestream '8e2536fa-3b13-4758-9828-99a981edf88a': bucket1 'livestream-recording-service-prod-bucket': 151 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 134 file(s); diff: 17
+--------------------------------------
+livestream '8f6223c9-fe97-435a-9a87-537063b712c9': bucket1 'livestream-recording-service-prod-bucket': 59 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 58 file(s); diff: 1
+--------------------------------------
+livestream '8fc21122-a567-4320-8696-07bc0cafc864': bucket1 'livestream-recording-service-prod-bucket': 100 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 98 file(s); diff: 2
+--------------------------------------
+livestream '921b7fc1-5a31-4b89-92db-18bbd9118a66': bucket1 'livestream-recording-service-prod-bucket': 36 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 34 file(s); diff: 2
+--------------------------------------
+livestream '92b0cded-0ed3-4ed9-9994-76c6dbf84bd3': bucket1 'livestream-recording-service-prod-bucket': 11 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 1 file(s); diff: 10
+--------------------------------------
+livestream '930d2d97-374f-49a7-a2c6-33574cfc3681': bucket1 'livestream-recording-service-prod-bucket': 98 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 96 file(s); diff: 2
+--------------------------------------
+livestream '93a3d780-ef76-4a03-9931-a06f6ec39f18': bucket1 'livestream-recording-service-prod-bucket': 12 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 9 file(s); diff: 3
+--------------------------------------
+livestream '941a6648-8ac7-4bbd-ae93-99aa7710133c': bucket1 'livestream-recording-service-prod-bucket': 54 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 53 file(s); diff: 1
+--------------------------------------
+livestream '9545f1cb-3f95-4368-a072-7a6811cf68b6': bucket1 'livestream-recording-service-prod-bucket': 141 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 120 file(s); diff: 21
+--------------------------------------
+livestream '9582b5f6-5e04-4a04-8417-5003975f33f6': bucket1 'livestream-recording-service-prod-bucket': 8 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 5 file(s); diff: 3
+--------------------------------------
+livestream '95e50261-23fc-4cf9-95d7-284f7e34f33b': bucket1 'livestream-recording-service-prod-bucket': 105 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 51 file(s); diff: 54
+--------------------------------------
+livestream '9638849f-6133-479c-b5cf-52cc16994beb': bucket1 'livestream-recording-service-prod-bucket': 106 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 29 file(s); diff: 77
+--------------------------------------
+livestream '97900c8c-1714-41fd-89c4-59dc0581a27f': bucket1 'livestream-recording-service-prod-bucket': 262 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 85 file(s); diff: 177
+--------------------------------------
+livestream '97a5b1ab-b2dc-4ea1-aed0-8a165a4d265a': bucket1 'livestream-recording-service-prod-bucket': 72 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 61 file(s); diff: 11
+--------------------------------------
+livestream '985e0941-b3c5-43b2-8638-5409292a04b0': bucket1 'livestream-recording-service-prod-bucket': 52 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 29 file(s); diff: 23
+--------------------------------------
+livestream '98d36130-e875-49f6-9802-a70532654da2': bucket1 'livestream-recording-service-prod-bucket': 13 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 11 file(s); diff: 2
+--------------------------------------
+livestream '9948e67d-3870-4d7b-9cc5-b5633f073fd7': bucket1 'livestream-recording-service-prod-bucket': 49 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 48 file(s); diff: 1
+--------------------------------------
+livestream '99d7f051-21d9-44df-88cc-403adcfd1b2e': bucket1 'livestream-recording-service-prod-bucket': 18 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 17 file(s); diff: 1
+--------------------------------------
+livestream '9b0ade75-9263-41fc-8ca6-c4c04a4f545a': bucket1 'livestream-recording-service-prod-bucket': 32 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 9 file(s); diff: 23
+--------------------------------------
+livestream '9bd6d3e0-190a-4cb8-bf1a-c5cb12892d54': bucket1 'livestream-recording-service-prod-bucket': 43 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 41 file(s); diff: 2
+--------------------------------------
+livestream '9bf12837-453e-47c5-8904-5f675a6bd7c5': bucket1 'livestream-recording-service-prod-bucket': 15 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 13 file(s); diff: 2
+--------------------------------------
+livestream '9c2d3d74-c9e3-4a99-aadc-74a87a74a68e': bucket1 'livestream-recording-service-prod-bucket': 1199 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 83 file(s); diff: 1116
+--------------------------------------
+livestream '9e8b3f42-9c73-44b0-9c68-6e3e709532f2': bucket1 'livestream-recording-service-prod-bucket': 11 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 6 file(s); diff: 5
+--------------------------------------
+livestream '9eeaa2a1-5ea5-4fab-ad3b-23a409bb5a09': bucket1 'livestream-recording-service-prod-bucket': 15 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 14 file(s); diff: 1
+--------------------------------------
+livestream '9f702f88-136c-4758-8f50-5fee85ebf888': bucket1 'livestream-recording-service-prod-bucket': 37 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 20 file(s); diff: 17
+--------------------------------------
+livestream '9fdbc585-0233-437e-b639-bf4e50a00e8c': bucket1 'livestream-recording-service-prod-bucket': 46 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 45 file(s); diff: 1
+--------------------------------------
+livestream 'a03a1935-9e31-4611-9278-6a85ae37e82a': bucket1 'livestream-recording-service-prod-bucket': 15 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 14 file(s); diff: 1
+--------------------------------------
+livestream 'a04cfaf1-0a75-4c9a-ba30-6037ab7e57e5': bucket1 'livestream-recording-service-prod-bucket': 804 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 576 file(s); diff: 228
+--------------------------------------
+livestream 'a0655020-1180-47de-bdfa-b25db6e7a5cb': bucket1 'livestream-recording-service-prod-bucket': 22 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 18 file(s); diff: 4
+--------------------------------------
+livestream 'a0b8a3e2-aaed-45c5-a7a1-bb5b289a3702': bucket1 'livestream-recording-service-prod-bucket': 140 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 32 file(s); diff: 108
+--------------------------------------
+livestream 'a0e60298-ca0f-486f-95b7-c90f3d776926': bucket1 'livestream-recording-service-prod-bucket': 94 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 79 file(s); diff: 15
+--------------------------------------
+livestream 'a1453f01-3cd3-408a-a722-ccd717176a73': bucket1 'livestream-recording-service-prod-bucket': 67 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 66 file(s); diff: 1
+--------------------------------------
+livestream 'a1b75a85-a8d3-4dc6-a239-2544c15f327f': bucket1 'livestream-recording-service-prod-bucket': 18 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 17 file(s); diff: 1
+--------------------------------------
+livestream 'a1db0116-6052-414b-b273-78e1e04dce2c': bucket1 'livestream-recording-service-prod-bucket': 126 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 52 file(s); diff: 74
+--------------------------------------
+livestream 'a2ab0344-10f0-4c81-b0e7-ce418e9242e6': bucket1 'livestream-recording-service-prod-bucket': 88 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 71 file(s); diff: 17
+--------------------------------------
+livestream 'a42bb3a3-f012-493f-9d4c-3b08195169d6': bucket1 'livestream-recording-service-prod-bucket': 15 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 12 file(s); diff: 3
+--------------------------------------
+livestream 'a4aa1ff2-fe9a-4a33-8617-a4f032d37cf8': bucket1 'livestream-recording-service-prod-bucket': 37 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 14 file(s); diff: 23
+--------------------------------------
+livestream 'a4ce754b-3e17-4122-91a5-28aeff606603': bucket1 'livestream-recording-service-prod-bucket': 225 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 105 file(s); diff: 120
+--------------------------------------
+livestream 'a4e5e556-b2a9-4210-95b3-7d08972e0d4e': bucket1 'livestream-recording-service-prod-bucket': 102 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 30 file(s); diff: 72
+--------------------------------------
+livestream 'a6007098-7e10-4f26-902a-d5d8aa4299d4': bucket1 'livestream-recording-service-prod-bucket': 24 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 22 file(s); diff: 2
+--------------------------------------
+livestream 'a6993e8c-b280-4c70-be5d-30a9b762cff9': bucket1 'livestream-recording-service-prod-bucket': 53 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 15 file(s); diff: 38
+--------------------------------------
+livestream 'a6b19adc-c1d9-4756-9723-1b7d4bd8e56d': bucket1 'livestream-recording-service-prod-bucket': 188 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 185 file(s); diff: 3
+--------------------------------------
+livestream 'a757ac42-8300-4358-b870-4d85f6bfb7c4': bucket1 'livestream-recording-service-prod-bucket': 95 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 57 file(s); diff: 38
+--------------------------------------
+livestream 'a8716e0f-a3a0-42da-a693-e45ed3a45d25': bucket1 'livestream-recording-service-prod-bucket': 33 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 32 file(s); diff: 1
+--------------------------------------
+livestream 'a8a9f82c-61d0-432e-bd89-64ab40a3556d': bucket1 'livestream-recording-service-prod-bucket': 84 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 43 file(s); diff: 41
+--------------------------------------
+livestream 'a928594b-ff4e-415b-9356-3b5e3eb95987': bucket1 'livestream-recording-service-prod-bucket': 626 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 392 file(s); diff: 234
+--------------------------------------
+livestream 'aa32fda5-5625-42cb-8770-5123c2173238': bucket1 'livestream-recording-service-prod-bucket': 17 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 14 file(s); diff: 3
+--------------------------------------
+livestream 'ac07666b-c6b0-4f1e-8d6b-2079cbb92b42': bucket1 'livestream-recording-service-prod-bucket': 130 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 129 file(s); diff: 1
+--------------------------------------
+livestream 'acd3b3dd-3bb5-4d16-863d-60821212a9dc': bucket1 'livestream-recording-service-prod-bucket': 56 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 33 file(s); diff: 23
+--------------------------------------
+livestream 'ad9c0346-f61a-47e3-bdaf-73f6e9fda195': bucket1 'livestream-recording-service-prod-bucket': 23 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 22 file(s); diff: 1
+--------------------------------------
+livestream 'ae533844-5cd7-4a6b-8489-e1b9d66f7d93': bucket1 'livestream-recording-service-prod-bucket': 41 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 40 file(s); diff: 1
+--------------------------------------
+livestream 'b17e23f9-9b4f-4dfc-a9ed-3e68aa787581': bucket1 'livestream-recording-service-prod-bucket': 54 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 53 file(s); diff: 1
+--------------------------------------
+livestream 'b1a83ef4-8de7-47ab-8b03-3143f4a1ad4a': bucket1 'livestream-recording-service-prod-bucket': 49 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 25 file(s); diff: 24
+--------------------------------------
+livestream 'b232bd43-674e-4427-ac43-cb7f71c85978': bucket1 'livestream-recording-service-prod-bucket': 107 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 12 file(s); diff: 95
+--------------------------------------
+livestream 'b4ac0abc-ecda-406c-8318-97a8d419d2f4': bucket1 'livestream-recording-service-prod-bucket': 23 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 22 file(s); diff: 1
+--------------------------------------
+livestream 'b70615d2-92ac-4109-a3ef-435986fbfe27': bucket1 'livestream-recording-service-prod-bucket': 885 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 194 file(s); diff: 691
+--------------------------------------
+livestream 'b72b3a95-a4f1-4241-b4ef-9998f7f2dc36': bucket1 'livestream-recording-service-prod-bucket': 66 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 65 file(s); diff: 1
+--------------------------------------
+livestream 'b763b793-00ad-4c94-aca4-106d4bfdbae9': bucket1 'livestream-recording-service-prod-bucket': 107 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 18 file(s); diff: 89
+--------------------------------------
+livestream 'b8ee8ba0-210b-4bb1-b091-68428583cec3': bucket1 'livestream-recording-service-prod-bucket': 413 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 262 file(s); diff: 151
+--------------------------------------
+livestream 'b8ef2c92-8f52-4abc-9d03-f1d01c915943': bucket1 'livestream-recording-service-prod-bucket': 9 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 7 file(s); diff: 2
+--------------------------------------
+livestream 'ba672768-4fb6-4754-af2b-c4a41369da3c': bucket1 'livestream-recording-service-prod-bucket': 21 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 19 file(s); diff: 2
+--------------------------------------
+livestream 'ba6cae62-c3b2-404a-9c86-f7bb60e2cf9b': bucket1 'livestream-recording-service-prod-bucket': 29 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 25 file(s); diff: 4
+--------------------------------------
+livestream 'baaa77e0-01e7-42a9-9f3b-c89cd4542b22': bucket1 'livestream-recording-service-prod-bucket': 446 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 424 file(s); diff: 22
+--------------------------------------
+livestream 'bb64ffad-e349-4679-aedf-c11685e8415d': bucket1 'livestream-recording-service-prod-bucket': 2318 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 319 file(s); diff: 1999
+--------------------------------------
+livestream 'bb682d61-a69b-4627-9acd-485aed99f95d': bucket1 'livestream-recording-service-prod-bucket': 609 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 375 file(s); diff: 234
+--------------------------------------
+livestream 'beaaf72b-eb13-44ab-8a03-8ada0dae433b': bucket1 'livestream-recording-service-prod-bucket': 13 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 11 file(s); diff: 2
+--------------------------------------
+livestream 'bef86851-73e0-446f-aa25-d001df6e78a7': bucket1 'livestream-recording-service-prod-bucket': 31 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 29 file(s); diff: 2
+--------------------------------------
+livestream 'bfa0b522-b10e-4fda-9192-d6873c4c6b91': bucket1 'livestream-recording-service-prod-bucket': 67 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 66 file(s); diff: 1
+--------------------------------------
+livestream 'c0965f9c-31bb-4bb1-b4a0-75492a9aa808': bucket1 'livestream-recording-service-prod-bucket': 48 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 47 file(s); diff: 1
+--------------------------------------
+livestream 'c1cde6b9-9fb6-4760-a8c8-79b87d160f70': bucket1 'livestream-recording-service-prod-bucket': 88 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 71 file(s); diff: 17
+--------------------------------------
+livestream 'c2a8f091-ef7f-4000-947b-8b750a93ac0e': bucket1 'livestream-recording-service-prod-bucket': 9 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 7 file(s); diff: 2
+--------------------------------------
+livestream 'c4b55712-959e-467a-898c-719b0e97882d': bucket1 'livestream-recording-service-prod-bucket': 22 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 20 file(s); diff: 2
+--------------------------------------
+livestream 'c68876ff-3939-46a1-bb48-e3635ffac38b': bucket1 'livestream-recording-service-prod-bucket': 73 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 72 file(s); diff: 1
+--------------------------------------
+livestream 'c768c541-8475-4a32-8cba-f26e606ffd39': bucket1 'livestream-recording-service-prod-bucket': 79 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 71 file(s); diff: 8
+--------------------------------------
+livestream 'c8b20b87-8899-46c8-8e12-58450beb6eab': bucket1 'livestream-recording-service-prod-bucket': 23 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 21 file(s); diff: 2
+--------------------------------------
+livestream 'c9e26036-175f-443f-b0e4-d5c71c5ea5e5': bucket1 'livestream-recording-service-prod-bucket': 122 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 71 file(s); diff: 51
+--------------------------------------
+livestream 'cb7c3fbc-91ea-4bf7-a5e1-65e2ceb02d73': bucket1 'livestream-recording-service-prod-bucket': 48 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 10 file(s); diff: 38
+--------------------------------------
+livestream 'cb7e1443-32d1-48fd-a1b9-2c20a4d9665e': bucket1 'livestream-recording-service-prod-bucket': 37 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 14 file(s); diff: 23
+--------------------------------------
+livestream 'ccc051ce-c480-4dae-bb1a-9091b54be3ba': bucket1 'livestream-recording-service-prod-bucket': 23 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 22 file(s); diff: 1
+--------------------------------------
+livestream 'ce328c84-74cb-42e8-b3b2-08bd6720107f': bucket1 'livestream-recording-service-prod-bucket': 210 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 209 file(s); diff: 1
+--------------------------------------
+livestream 'cf9f3a72-d1b8-4758-b06a-e1e6d90b3173': bucket1 'livestream-recording-service-prod-bucket': 65 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 58 file(s); diff: 7
+--------------------------------------
+livestream 'd032921d-0c32-424e-be67-8a8bab0d0750': bucket1 'livestream-recording-service-prod-bucket': 40 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 20 file(s); diff: 20
+--------------------------------------
+livestream 'd11cd4a9-e871-4820-80de-3bb8ecc74eac': bucket1 'livestream-recording-service-prod-bucket': 146 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 69 file(s); diff: 77
+--------------------------------------
+livestream 'd170398b-21cc-4651-84d6-a7e854bb40fb': bucket1 'livestream-recording-service-prod-bucket': 73 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 52 file(s); diff: 21
+--------------------------------------
+livestream 'd4876099-cf6a-431a-ab9e-63822a80f443': bucket1 'livestream-recording-service-prod-bucket': 83 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 81 file(s); diff: 2
+--------------------------------------
+livestream 'd4d38c48-ecf0-4c8c-a43f-f2d96d0a5813': bucket1 'livestream-recording-service-prod-bucket': 38 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 18 file(s); diff: 20
+--------------------------------------
+livestream 'd64a98a8-42b6-4c5c-aedb-7a93514cb7a6': bucket1 'livestream-recording-service-prod-bucket': 2 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 1 file(s); diff: 1
+--------------------------------------
+livestream 'd769a709-609f-4ab1-b514-6bfe7fc2c08b': bucket1 'livestream-recording-service-prod-bucket': 446 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 49 file(s); diff: 397
+--------------------------------------
+livestream 'd89fe41e-6d1f-4912-b054-61f751424143': bucket1 'livestream-recording-service-prod-bucket': 188 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 3 file(s); diff: 185
+--------------------------------------
+livestream 'd9d629dd-b2df-49d2-9281-6a142381241b': bucket1 'livestream-recording-service-prod-bucket': 112 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 89 file(s); diff: 23
+--------------------------------------
+livestream 'db08f50f-75b0-46a2-a338-a112d7920b3d': bucket1 'livestream-recording-service-prod-bucket': 33 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 32 file(s); diff: 1
+--------------------------------------
+livestream 'dcdb34ee-720c-4985-949f-ee413b929721': bucket1 'livestream-recording-service-prod-bucket': 45 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 44 file(s); diff: 1
+--------------------------------------
+livestream 'de723832-3f0a-4e15-81b7-aa3a0326d230': bucket1 'livestream-recording-service-prod-bucket': 80 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 79 file(s); diff: 1
+--------------------------------------
+livestream 'de94c3b6-9203-4fa4-bc57-7493c9172587': bucket1 'livestream-recording-service-prod-bucket': 1021 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 19 file(s); diff: 1002
+--------------------------------------
+livestream 'deb541d2-a49c-403e-bdc8-257b757afc7c': bucket1 'livestream-recording-service-prod-bucket': 88 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 67 file(s); diff: 21
+--------------------------------------
+livestream 'df5c9d51-444a-4f57-a56b-ced3a78cc0d5': bucket1 'livestream-recording-service-prod-bucket': 223 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 121 file(s); diff: 102
+--------------------------------------
+livestream 'e53a3d4b-7be4-4286-b9b4-37faaffd034f': bucket1 'livestream-recording-service-prod-bucket': 99 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 77 file(s); diff: 22
+--------------------------------------
+livestream 'e6be1c1a-5350-43f0-9384-78d591dcffd8': bucket1 'livestream-recording-service-prod-bucket': 12 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 10 file(s); diff: 2
+--------------------------------------
+livestream 'e73187f2-c6e7-4f3c-81ac-da4b3b7de79c': bucket1 'livestream-recording-service-prod-bucket': 37 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 35 file(s); diff: 2
+--------------------------------------
+livestream 'e8d1d231-f332-42ab-a78d-ffdb887ea827': bucket1 'livestream-recording-service-prod-bucket': 15 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 4 file(s); diff: 11
+--------------------------------------
+livestream 'ec2f55b2-70c3-4a4c-b731-5bcf1b9720d3': bucket1 'livestream-recording-service-prod-bucket': 101 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 53 file(s); diff: 48
+--------------------------------------
+livestream 'ed04de9e-ecfd-48df-8c1d-4b80c6d9ced6': bucket1 'livestream-recording-service-prod-bucket': 90 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 89 file(s); diff: 1
+--------------------------------------
+livestream 'edd73a9b-4e53-4940-9872-4109dfea4f5c': bucket1 'livestream-recording-service-prod-bucket': 19 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 18 file(s); diff: 1
+--------------------------------------
+livestream 'f10b2bdb-9cd4-446c-b811-fd8701757d20': bucket1 'livestream-recording-service-prod-bucket': 5 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 3 file(s); diff: 2
+--------------------------------------
+livestream 'f13ee7cf-10a9-41db-99cf-8a846778a512': bucket1 'livestream-recording-service-prod-bucket': 33 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 9 file(s); diff: 24
+--------------------------------------
+livestream 'f210a097-5b29-40b2-b1ed-3f13a634214b': bucket1 'livestream-recording-service-prod-bucket': 94 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 42 file(s); diff: 52
+--------------------------------------
+livestream 'f44fb682-8d44-42ed-8020-95ae41c966cf': bucket1 'livestream-recording-service-prod-bucket': 13 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 12 file(s); diff: 1
+--------------------------------------
+livestream 'f5c93d60-d93e-4a43-8e55-6a49c24ccac9': bucket1 'livestream-recording-service-prod-bucket': 275 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 135 file(s); diff: 140
+--------------------------------------
+livestream 'f879029c-15da-44ea-a079-8fcaf6f1a44c': bucket1 'livestream-recording-service-prod-bucket': 50 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 31 file(s); diff: 19
+--------------------------------------
+livestream 'f90690ab-0f3e-40ab-ab76-1364efc8b1b7': bucket1 'livestream-recording-service-prod-bucket': 2 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 1 file(s); diff: 1
+--------------------------------------
+livestream 'f9192de4-cfe9-4866-81e4-d4fb526ed58a': bucket1 'livestream-recording-service-prod-bucket': 40 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 38 file(s); diff: 2
+--------------------------------------
+livestream 'fb0a180a-e313-469c-af81-300b8828b641': bucket1 'livestream-recording-service-prod-bucket': 85 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 51 file(s); diff: 34
+--------------------------------------
+livestream 'fb36fbbc-8fcd-46ac-a97c-a244d6086b01': bucket1 'livestream-recording-service-prod-bucket': 32 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 31 file(s); diff: 1
+--------------------------------------
+livestream 'fda09a5c-23a6-48a7-9ae3-3cb7d19f0ddf': bucket1 'livestream-recording-service-prod-bucket': 94 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 93 file(s); diff: 1
+--------------------------------------
+livestream 'ff4982a6-4655-4600-9dbc-28e4e9d83ed4': bucket1 'livestream-recording-service-prod-bucket': 77 file(s): bucket2 'livestream-recording-service-prod-bucket-temp': 19 file(s); diff: 58
+--------------------------------------
+Total IDs in temp bucket: 817
+Total IDs with less files in prod bucket than temp bucket: 469
+Total IDs with same files in prod bucket and temp bucket: 95
+Total IDs with more files in prod bucket than temp bucket: 253
