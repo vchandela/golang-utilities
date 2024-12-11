@@ -154,7 +154,7 @@ func getUniqueIDsFromGCS(ctx context.Context, client *storage.Client, bucketName
 	return ids, nil
 }
 
-func calculateCounts(ctx context.Context, client *storage.Client, bucket, bucket2, rootPrefix, rootPrefix2, id string, logger *log.Logger, cnt *dto.Counts, mutex *sync.Mutex, badIds *[]string) {
+func calculateCounts(ctx context.Context, client *storage.Client, bucket, bucket2, rootPrefix, rootPrefix2, id string, logger *log.Logger, cnt *dto.Counts, mutex *sync.Mutex, badIds map[string][]string) {
 	numFiles, numFiles2, err := compareNumFilesAcrossBuckets(ctx, client, id, bucket, bucket2, rootPrefix, rootPrefix2, logger)
 	if err != nil {
 		return
@@ -171,16 +171,65 @@ func calculateCounts(ctx context.Context, client *storage.Client, bucket, bucket
 		cnt.More1To4++
 	} else if numFiles >= numFiles2+5 && numFiles <= numFiles2+10 {
 		cnt.More5To10++
+	} else if numFiles >= numFiles2+11 && numFiles <= numFiles2+20 {
+		cnt.More11To20++
+        badIds["11To20"] = append(badIds["11To20"], id)
+	} else if numFiles >= numFiles2+21 && numFiles <= numFiles2+30 {
+		cnt.More21To30++
+        badIds["21To30"] = append(badIds["21To30"], id)
+	} else if numFiles >= numFiles2+31 && numFiles <= numFiles2+40 {
+		cnt.More31To40++
+        badIds["31To40"] = append(badIds["31To40"], id)
+	} else if numFiles >= numFiles2+41 && numFiles <= numFiles2+50 {
+		cnt.More41To50++
+        badIds["41To50"] = append(badIds["41To50"], id)
+	} else if numFiles >= numFiles2+51 && numFiles <= numFiles2+60 {
+		cnt.More51To60++
+        badIds["51To60"] = append(badIds["51To60"], id)
+	} else if numFiles >= numFiles2+61 && numFiles <= numFiles2+70 {
+		cnt.More61To70++
+        badIds["61To70"] = append(badIds["61To70"], id)
+	} else if numFiles >= numFiles2+71 && numFiles <= numFiles2+80 {
+		cnt.More71To80++
+        badIds["71To80"] = append(badIds["71To80"], id)
+	} else if numFiles >= numFiles2+81 && numFiles <= numFiles2+90 {
+		cnt.More81To90++
+        badIds["81To90"] = append(badIds["81To90"], id)
+	} else if numFiles >= numFiles2+91 && numFiles <= numFiles2+100 {
+		cnt.More91To100++
+        badIds["91To100"] = append(badIds["91To100"], id)
+	} else if numFiles >= numFiles2+101 && numFiles <= numFiles2+150 {
+		cnt.More101To150++
+        badIds["101To150"] = append(badIds["101To150"], id)
+	} else if numFiles >= numFiles2+151 && numFiles <= numFiles2+200 {
+		cnt.More151To200++
+        badIds["151To200"] = append(badIds["151To200"], id)
+	} else if numFiles >= numFiles2+201 && numFiles <= numFiles2+250 {
+		cnt.More201To250++
+        badIds["201To250"] = append(badIds["201To250"], id)
+	} else if numFiles >= numFiles2+251 && numFiles <= numFiles2+300 {
+		cnt.More251To300++
+        badIds["251To300"] = append(badIds["251To300"], id)
+	} else if numFiles >= numFiles2+301 && numFiles <= numFiles2+350 {
+		cnt.More301To350++
+        badIds["301To350"] = append(badIds["301To350"], id)
+	} else if numFiles >= numFiles2+351 && numFiles <= numFiles2+400 {
+		cnt.More351To400++
+        badIds["351To400"] = append(badIds["351To400"], id)
+	} else if numFiles >= numFiles2+401 && numFiles <= numFiles2+450 {
+		cnt.More401To450++
+        badIds["401To450"] = append(badIds["401To450"], id)
+	} else if numFiles >= numFiles2+451 && numFiles <= numFiles2+500 {
+		cnt.More451To500++
+        badIds["451To500"] = append(badIds["451To500"], id)
 	} else {
-		logger.Printf("livestream '%s': bucket1 '%s': %d file(s): bucket2 '%s': %d file(s); diff: %d\n", id, bucket, numFiles, bucket2, numFiles2, numFiles-numFiles2)
-		logger.Println("--------------------------------------")
-		cnt.MoreThan10++
-        *badIds = append(*badIds, id)
+		cnt.MoreThan500++
+        badIds["MoreThan500"] = append(badIds["MoreThan500"], id)
 	}
 }
 
-func worker(ctx context.Context, client *storage.Client, bucket, bucket2, rootPrefix, rootPrefix2 string, logger *log.Logger, cnt *dto.Counts, mutex *sync.Mutex, jobs <-chan string, wg *sync.WaitGroup, badIds *[]string) {
-    defer wg.Done()
+func worker(ctx context.Context, client *storage.Client, bucket, bucket2, rootPrefix, rootPrefix2 string, logger *log.Logger, cnt *dto.Counts, mutex *sync.Mutex, jobs <-chan string, wg *sync.WaitGroup, badIds map[string][]string) {
+	defer wg.Done()
 	for id := range jobs {
 		calculateCounts(ctx, client, bucket, bucket2, rootPrefix, rootPrefix2, id, logger, cnt, mutex, badIds)
 	}
@@ -192,38 +241,78 @@ func bucketBasedComparison(ctx context.Context, client *storage.Client, bucket, 
 		logger.Fatalf("Failed to retrieve IDs from temp bucket: %v", err)
 	}
 
-	logger.Printf("Total IDs in temp bucket: %d\n", len(ids))
-
 	jobs := make(chan string, len(ids))
 	var mutex sync.Mutex
-    var wg sync.WaitGroup
+	var wg sync.WaitGroup
 	cnt := dto.Counts{} //contains shared variables
-    badIds := make([]string, 0)
+	badIds := make(map[string][]string)
+	badIds["11To20"] = []string{}
+	badIds["21To30"] = []string{}
+	badIds["31To40"] = []string{}
+	badIds["41To50"] = []string{}
+	badIds["51To60"] = []string{}
+	badIds["61To70"] = []string{}
+	badIds["71To80"] = []string{}
+	badIds["81To90"] = []string{}
+	badIds["91To100"] = []string{}
+	badIds["101To150"] = []string{}
+	badIds["151To200"] = []string{}
+	badIds["201To250"] = []string{}
+	badIds["251To300"] = []string{}
+	badIds["301To350"] = []string{}
+	badIds["351To400"] = []string{}
+	badIds["401To450"] = []string{}
+	badIds["451To500"] = []string{}
+	badIds["MoreThan500"] = []string{}
 
-    for _, id := range ids {
+	for _, id := range ids {
 		jobs <- id
 	}
 	close(jobs)
 
 	for w := 1; w <= 1024; w++ {
-        wg.Add(1)
-		go worker(ctx, client, bucket, bucket2, rootPrefix, rootPrefix2, logger, &cnt, &mutex, jobs, &wg, &badIds)
+		wg.Add(1)
+		go worker(ctx, client, bucket, bucket2, rootPrefix, rootPrefix2, logger, &cnt, &mutex, jobs, &wg, badIds)
 	}
 
-    wg.Wait()
+	wg.Wait()
 
 	logger.Printf("Total IDs in temp bucket: %d\n", len(ids))
 	logger.Printf("Total IDs with less files in prod bucket than temp bucket: %d\n", cnt.Less)
 	logger.Printf("Total IDs with same files in prod bucket and temp bucket: %d\n", cnt.Equal)
 	logger.Printf("Total IDs with 1-4 more files in prod bucket than temp bucket: %d\n", cnt.More1To4)
 	logger.Printf("Total IDs with 5-10 more files in prod bucket than temp bucket: %d\n", cnt.More5To10)
-	logger.Printf("Total IDs with more than 10 files in prod bucket than temp bucket: %d\n", cnt.MoreThan10)
-    // Add single quotes to each element
-	for i, v := range badIds {
-		badIds[i] = "'" + v + "'"
+	logger.Printf("Total IDs with 11-20 more files in prod bucket than temp bucket: %d\n", cnt.More11To20)
+	logger.Printf("Total IDs with 21-30 more files in prod bucket than temp bucket: %d\n", cnt.More21To30)
+	logger.Printf("Total IDs with 31-40 more files in prod bucket than temp bucket: %d\n", cnt.More31To40)
+	logger.Printf("Total IDs with 41-50 more files in prod bucket than temp bucket: %d\n", cnt.More41To50)
+	logger.Printf("Total IDs with 51-60 more files in prod bucket than temp bucket: %d\n", cnt.More51To60)
+	logger.Printf("Total IDs with 61-70 more files in prod bucket than temp bucket: %d\n", cnt.More61To70)
+	logger.Printf("Total IDs with 71-80 more files in prod bucket than temp bucket: %d\n", cnt.More71To80)
+	logger.Printf("Total IDs with 81-90 more files in prod bucket than temp bucket: %d\n", cnt.More81To90)
+	logger.Printf("Total IDs with 91-100 more files in prod bucket than temp bucket: %d\n", cnt.More91To100)
+	logger.Printf("Total IDs with 101-150 more files in prod bucket than temp bucket: %d\n", cnt.More101To150)
+	logger.Printf("Total IDs with 151-200 more files in prod bucket than temp bucket: %d\n", cnt.More151To200)
+	logger.Printf("Total IDs with 201-250 more files in prod bucket than temp bucket: %d\n", cnt.More201To250)
+	logger.Printf("Total IDs with 251-300 more files in prod bucket than temp bucket: %d\n", cnt.More251To300)
+	logger.Printf("Total IDs with 301-350 more files in prod bucket than temp bucket: %d\n", cnt.More301To350)
+	logger.Printf("Total IDs with 351-400 more files in prod bucket than temp bucket: %d\n", cnt.More351To400)
+	logger.Printf("Total IDs with 401-450 more files in prod bucket than temp bucket: %d\n", cnt.More401To450)
+	logger.Printf("Total IDs with 451-500 more files in prod bucket than temp bucket: %d\n", cnt.More451To500)
+	logger.Printf("Total IDs with more than 500 files in prod bucket than temp bucket: %d\n", cnt.MoreThan500)
+
+    for key, slice := range badIds {
+		// Add single quotes to each element in the slice
+		for i, v := range slice {
+			slice[i] = "'" + v + "'"
+		}
+
+		// Join the elements with a comma and wrap in brackets
+		result := "()" + strings.Join(slice, ", ") + ")"
+
+		// Print the key and the formatted slice
+		logger.Printf("%s: %s\n", key, result)
 	}
-    result := "(" + strings.Join(badIds, ", ") + ")"
-    logger.Printf("Bad IDs: %s\n", result)
 }
 
 func main() {
