@@ -308,7 +308,7 @@ func bucketBasedComparison(ctx context.Context, client *storage.Client, bucket, 
 		}
 
 		// Join the elements with a comma and wrap in brackets
-		result := "()" + strings.Join(slice, ", ") + ")"
+		result := "(" + strings.Join(slice, ", ") + ")"
 
 		// Print the key and the formatted slice
 		logger.Printf("%s: %s\n", key, result)
