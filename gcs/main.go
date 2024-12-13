@@ -163,8 +163,20 @@ func calculateCounts(ctx context.Context, client *storage.Client, bucket, bucket
 	mutex.Lock()
 	defer mutex.Unlock() // Ensure safe access to shared state
 
-	if numFiles < numFiles2 {
-		cnt.Less++
+	if numFiles2 > numFiles && numFiles2 <= numFiles+10 {
+		badIds["1To10Rev"] = append(badIds["1To10Rev"], id)
+	} else if numFiles2 >= numFiles+11 && numFiles2 <= numFiles+20 {
+		badIds["11To20Rev"] = append(badIds["11To20Rev"], id)
+	} else if numFiles2 >= numFiles+21 && numFiles2 <= numFiles+30 {
+		badIds["21To30Rev"] = append(badIds["21To30Rev"], id)
+	} else if numFiles2 >= numFiles+31 && numFiles2 <= numFiles+40 {
+		badIds["31To40Rev"] = append(badIds["31To40Rev"], id)
+	} else if numFiles2 >= numFiles+41 && numFiles2 <= numFiles+50 {
+		badIds["41To50Rev"] = append(badIds["41To50Rev"], id)
+	} else if numFiles2 >= numFiles+51 && numFiles2 <= numFiles+100 {
+		badIds["51To100Rev"] = append(badIds["51To100Rev"], id)
+	} else if numFiles2 > numFiles+100 {
+		badIds["MoreThan100Rev"] = append(badIds["MoreThan100Rev"], id)
 	} else if numFiles == numFiles2 {
 		cnt.Equal++
 	} else if numFiles > numFiles2 && numFiles <= numFiles2+4 {
@@ -173,58 +185,58 @@ func calculateCounts(ctx context.Context, client *storage.Client, bucket, bucket
 		cnt.More5To10++
 	} else if numFiles >= numFiles2+11 && numFiles <= numFiles2+20 {
 		cnt.More11To20++
-        badIds["11To20"] = append(badIds["11To20"], id)
+		badIds["11To20"] = append(badIds["11To20"], id)
 	} else if numFiles >= numFiles2+21 && numFiles <= numFiles2+30 {
 		cnt.More21To30++
-        badIds["21To30"] = append(badIds["21To30"], id)
+		badIds["21To30"] = append(badIds["21To30"], id)
 	} else if numFiles >= numFiles2+31 && numFiles <= numFiles2+40 {
 		cnt.More31To40++
-        badIds["31To40"] = append(badIds["31To40"], id)
+		badIds["31To40"] = append(badIds["31To40"], id)
 	} else if numFiles >= numFiles2+41 && numFiles <= numFiles2+50 {
 		cnt.More41To50++
-        badIds["41To50"] = append(badIds["41To50"], id)
+		badIds["41To50"] = append(badIds["41To50"], id)
 	} else if numFiles >= numFiles2+51 && numFiles <= numFiles2+60 {
 		cnt.More51To60++
-        badIds["51To60"] = append(badIds["51To60"], id)
+		badIds["51To60"] = append(badIds["51To60"], id)
 	} else if numFiles >= numFiles2+61 && numFiles <= numFiles2+70 {
 		cnt.More61To70++
-        badIds["61To70"] = append(badIds["61To70"], id)
+		badIds["61To70"] = append(badIds["61To70"], id)
 	} else if numFiles >= numFiles2+71 && numFiles <= numFiles2+80 {
 		cnt.More71To80++
-        badIds["71To80"] = append(badIds["71To80"], id)
+		badIds["71To80"] = append(badIds["71To80"], id)
 	} else if numFiles >= numFiles2+81 && numFiles <= numFiles2+90 {
 		cnt.More81To90++
-        badIds["81To90"] = append(badIds["81To90"], id)
+		badIds["81To90"] = append(badIds["81To90"], id)
 	} else if numFiles >= numFiles2+91 && numFiles <= numFiles2+100 {
 		cnt.More91To100++
-        badIds["91To100"] = append(badIds["91To100"], id)
+		badIds["91To100"] = append(badIds["91To100"], id)
 	} else if numFiles >= numFiles2+101 && numFiles <= numFiles2+150 {
 		cnt.More101To150++
-        badIds["101To150"] = append(badIds["101To150"], id)
+		badIds["101To150"] = append(badIds["101To150"], id)
 	} else if numFiles >= numFiles2+151 && numFiles <= numFiles2+200 {
 		cnt.More151To200++
-        badIds["151To200"] = append(badIds["151To200"], id)
+		badIds["151To200"] = append(badIds["151To200"], id)
 	} else if numFiles >= numFiles2+201 && numFiles <= numFiles2+250 {
 		cnt.More201To250++
-        badIds["201To250"] = append(badIds["201To250"], id)
+		badIds["201To250"] = append(badIds["201To250"], id)
 	} else if numFiles >= numFiles2+251 && numFiles <= numFiles2+300 {
 		cnt.More251To300++
-        badIds["251To300"] = append(badIds["251To300"], id)
+		badIds["251To300"] = append(badIds["251To300"], id)
 	} else if numFiles >= numFiles2+301 && numFiles <= numFiles2+350 {
 		cnt.More301To350++
-        badIds["301To350"] = append(badIds["301To350"], id)
+		badIds["301To350"] = append(badIds["301To350"], id)
 	} else if numFiles >= numFiles2+351 && numFiles <= numFiles2+400 {
 		cnt.More351To400++
-        badIds["351To400"] = append(badIds["351To400"], id)
+		badIds["351To400"] = append(badIds["351To400"], id)
 	} else if numFiles >= numFiles2+401 && numFiles <= numFiles2+450 {
 		cnt.More401To450++
-        badIds["401To450"] = append(badIds["401To450"], id)
+		badIds["401To450"] = append(badIds["401To450"], id)
 	} else if numFiles >= numFiles2+451 && numFiles <= numFiles2+500 {
 		cnt.More451To500++
-        badIds["451To500"] = append(badIds["451To500"], id)
+		badIds["451To500"] = append(badIds["451To500"], id)
 	} else {
 		cnt.MoreThan500++
-        badIds["MoreThan500"] = append(badIds["MoreThan500"], id)
+		badIds["MoreThan500"] = append(badIds["MoreThan500"], id)
 	}
 }
 
@@ -246,6 +258,13 @@ func bucketBasedComparison(ctx context.Context, client *storage.Client, bucket, 
 	var wg sync.WaitGroup
 	cnt := dto.Counts{} //contains shared variables
 	badIds := make(map[string][]string)
+	badIds["1To10Rev"] = []string{}
+	badIds["11To20Rev"] = []string{}
+	badIds["21To30Rev"] = []string{}
+	badIds["31To40Rev"] = []string{}
+	badIds["41To50Rev"] = []string{}
+	badIds["51To100Rev"] = []string{}
+	badIds["MoreThan100Rev"] = []string{}
 	badIds["11To20"] = []string{}
 	badIds["21To30"] = []string{}
 	badIds["31To40"] = []string{}
@@ -270,7 +289,7 @@ func bucketBasedComparison(ctx context.Context, client *storage.Client, bucket, 
 	}
 	close(jobs)
 
-	for w := 1; w <= 1024; w++ {
+	for w := 1; w <= 64; w++ {
 		wg.Add(1)
 		go worker(ctx, client, bucket, bucket2, rootPrefix, rootPrefix2, logger, &cnt, &mutex, jobs, &wg, badIds)
 	}
@@ -278,7 +297,13 @@ func bucketBasedComparison(ctx context.Context, client *storage.Client, bucket, 
 	wg.Wait()
 
 	logger.Printf("Total IDs in temp bucket: %d\n", len(ids))
-	logger.Printf("Total IDs with less files in prod bucket than temp bucket: %d\n", cnt.Less)
+	logger.Printf("Total IDs with 1-10 less files in prod bucket than temp bucket: %d\n", len(badIds["1To10Rev"]))
+	logger.Printf("Total IDs with 11-20 less files in prod bucket than temp bucket: %d\n", len(badIds["11To20Rev"]))
+	logger.Printf("Total IDs with 21-30 less files in prod bucket than temp bucket: %d\n", len(badIds["21To30Rev"]))
+	logger.Printf("Total IDs with 31-40 less files in prod bucket than temp bucket: %d\n", len(badIds["31To40Rev"]))
+	logger.Printf("Total IDs with 41-50 less files in prod bucket than temp bucket: %d\n", len(badIds["41To50Rev"]))
+	logger.Printf("Total IDs with 51-100 less files in prod bucket than temp bucket: %d\n", len(badIds["51To100Rev"]))
+	logger.Printf("Total IDs with 100+ less files in prod bucket than temp bucket: %d\n", len(badIds["MoreThan100Rev"]))
 	logger.Printf("Total IDs with same files in prod bucket and temp bucket: %d\n", cnt.Equal)
 	logger.Printf("Total IDs with 1-4 more files in prod bucket than temp bucket: %d\n", cnt.More1To4)
 	logger.Printf("Total IDs with 5-10 more files in prod bucket than temp bucket: %d\n", cnt.More5To10)
@@ -301,7 +326,7 @@ func bucketBasedComparison(ctx context.Context, client *storage.Client, bucket, 
 	logger.Printf("Total IDs with 451-500 more files in prod bucket than temp bucket: %d\n", cnt.More451To500)
 	logger.Printf("Total IDs with more than 500 files in prod bucket than temp bucket: %d\n", cnt.MoreThan500)
 
-    for key, slice := range badIds {
+	for key, slice := range badIds {
 		// Add single quotes to each element in the slice
 		for i, v := range slice {
 			slice[i] = "'" + v + "'"
