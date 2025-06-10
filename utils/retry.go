@@ -7,9 +7,9 @@ import (
 
 const (
 	// Retry configuration
-	MaxRetryAttempts     = 5
+	MaxRetryAttempts     = 3
 	InitialRetryInterval = 200 * time.Millisecond
-	MaxRetryInterval     = 2 * time.Second
+	MaxTotalTimeout      = 2 * time.Second
 	JitterFactor         = 0.2 // 20% jitter
 )
 
@@ -37,11 +37,20 @@ func (rs *RetryState) NextBackoff() time.Duration {
 
 	// Calculate exponential backoff
 	backoff := rs.LastBackoff * 2
-	// Add jitter, then make sure it doesn't exceed MaxRetryInterval
+
+	// Add jitter
 	jitter := float64(backoff) * JitterFactor
 	backoff = backoff + time.Duration(rand.Float64()*jitter)
-	if backoff > MaxRetryInterval {
-		backoff = MaxRetryInterval
+
+	// Check if adding this backoff would exceed the total timeout
+	elapsed := time.Since(rs.StartTime)
+	if elapsed+backoff > MaxTotalTimeout {
+		// If we would exceed the timeout, return the remaining time
+		remaining := MaxTotalTimeout - elapsed
+		if remaining <= 0 {
+			return 0
+		}
+		backoff = remaining
 	}
 
 	rs.LastBackoff = backoff
@@ -52,7 +61,11 @@ func (rs *RetryState) NextBackoff() time.Duration {
 
 // ShouldRetry determines if another retry attempt should be made
 func (rs *RetryState) ShouldRetry() bool {
-	return rs.Attempt < MaxRetryAttempts
+	if rs.Attempt >= MaxRetryAttempts {
+		return false
+	}
+	// Also check if we've exceeded the total timeout
+	return time.Since(rs.StartTime) < MaxTotalTimeout
 }
 
 // GetRetryMetrics returns metrics about the retry attempts
@@ -61,5 +74,6 @@ func (rs *RetryState) GetRetryMetrics() map[string]interface{} {
 		"attempt":      rs.Attempt,
 		"last_backoff": rs.LastBackoff,
 		"total_time":   time.Since(rs.StartTime),
+		"timeout":      MaxTotalTimeout,
 	}
 }
