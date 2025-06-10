@@ -5,10 +5,6 @@ import (
 	"time"
 )
 
-/*
-	Retries using exponential backoff with jitter.
-*/
-
 const (
 	// Retry configuration
 	MaxRetryAttempts     = 5
@@ -41,13 +37,12 @@ func (rs *RetryState) NextBackoff() time.Duration {
 
 	// Calculate exponential backoff
 	backoff := rs.LastBackoff * 2
+	// Add jitter, then make sure it doesn't exceed MaxRetryInterval
+	jitter := float64(backoff) * JitterFactor
+	backoff = backoff + time.Duration(rand.Float64()*jitter)
 	if backoff > MaxRetryInterval {
 		backoff = MaxRetryInterval
 	}
-
-	// Add jitter
-	jitter := float64(backoff) * JitterFactor
-	backoff = backoff + time.Duration(rand.Float64()*jitter)
 
 	rs.LastBackoff = backoff
 	rs.Attempt++
