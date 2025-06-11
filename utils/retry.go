@@ -7,7 +7,7 @@ import (
 
 const (
 	// Retry configuration
-	MaxRetryAttempts     = 3
+	MaxTotalAttempts     = 3
 	InitialRetryInterval = 200 * time.Millisecond
 	MaxTotalTimeout      = 2 * time.Second
 	JitterFactor         = 0.2 // 20% jitter
@@ -31,7 +31,7 @@ func NewRetryState() *RetryState {
 
 // NextBackoff calculates the next backoff duration with exponential increase and jitter
 func (rs *RetryState) NextBackoff() time.Duration {
-	if rs.Attempt >= MaxRetryAttempts {
+	if rs.Attempt >= MaxTotalAttempts {
 		return 0
 	}
 
@@ -61,7 +61,7 @@ func (rs *RetryState) NextBackoff() time.Duration {
 
 // ShouldRetry determines if another retry attempt should be made
 func (rs *RetryState) ShouldRetry() bool {
-	if rs.Attempt >= MaxRetryAttempts {
+	if rs.Attempt >= MaxTotalAttempts {
 		return false
 	}
 	// Also check if we've exceeded the total timeout
